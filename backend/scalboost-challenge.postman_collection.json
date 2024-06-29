@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "3da26052-b6c5-441e-9c4c-4ab0526d1247",
+		"name": "scalboost-challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15656753"
+	},
+	"item": [
+		{
+			"name": "api-products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"products"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "prod",
+							"disabled": true
+						},
+						{
+							"key": "page",
+							"value": "2",
+							"disabled": true
+						},
+						{
+							"key": "limit",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "minPrice",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "maxPrice",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "minQuantity",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "maxQuantity",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
