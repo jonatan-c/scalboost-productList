@@ -36,6 +36,7 @@ Swagger will be in http://localhost:4000/api
 ## Intalacion y ejecucion
 
 ```
+In both the frontend and backend folders, i am using node version 20.11.1
 // Backend:
 cd backend
 npm install
