@@ -1,11 +1,11 @@
 export interface IResponseBackend {
-  data: Data[];
+  data: IProduct[];
   total: number;
   page: number;
   limit: number;
 }
 
-export interface Data {
+export interface IProduct {
   id: number;
   name: string;
   price: number;

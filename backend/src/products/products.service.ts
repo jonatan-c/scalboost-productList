@@ -1,6 +1,12 @@
 import { Injectable } from '@nestjs/common';
 import { fakeData } from 'src/data';
-
+interface IQuery {
+  name: string;
+  minPrice: number;
+  maxPrice: number;
+  minQuantity: number;
+  maxQuantity: number;
+}
 @Injectable()
 export class ProductsService {
   private getProductsData() {
@@ -22,7 +28,7 @@ export class ProductsService {
     };
   }
 
-  findByQuery(query: any, page: number, limit: number) {
+  findByQuery(query: IQuery, page: number, limit: number) {
     let products = this.getProductsData();
 
     if (query.name) {
