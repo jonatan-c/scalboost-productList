@@ -9,7 +9,9 @@ Development of a simple and functional user interface application in React with 
 - Backend with a list of products and filters.
 - Postman collection to endpoints.
 - Frontend with a list of products and filters.
+- Context to manage the state of the application.
 - Responsive design.
+- Swagger for API documentation.
 
 
 ## Herramientas
@@ -21,6 +23,14 @@ Development of a simple and functional user interface application in React with 
 
 
 ![alt](./images-readme/challenge-scalboost.png)
+
+## Environment variables
+
+For easy of use, the environment variables are already configured in the project, this is a bad practice, but for the purpose of the challenge it is enough.
+
+Front will be in http://localhost:3000
+Back will be in http://localhost:4000/products
+Swagger will be in http://localhost:4000/api
 
 
 ## Intalacion y ejecucion
